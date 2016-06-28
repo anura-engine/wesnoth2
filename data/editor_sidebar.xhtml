@@ -8,14 +8,27 @@ body {
 	background-color: rgb(48, 48, 128);
 	font-size: 24;
 }
+img.i1 {
+	float: left;
+	border: solid tan 2px;
+	padding: 2px;
+}
+img.i1:hover {
+	border-color: red;
+	transition: border-color 2000ms;
+}
+img.i1:focus {
+	border-color: lightblue;
+}
     </style>
+<script type="text/ffl">
+	set(me.event_handlers.onload, q(
+		set(me.document.getElementById('d1').innerHTML, img_str) where img_str = fold(map(get_hex_editor_info(), 
+			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type)), a+b)
+	))
+</script>
 </head>
 <body>
-    <p id="p1">
-	1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-	in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-	sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+    <div id="d1" />
 </body>
 </html>
