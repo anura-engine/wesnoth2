@@ -5,7 +5,7 @@
 <head>
     <style>
 body {
-	background-color: rgb(48, 48, 128);
+	background-color: rgb(48, 48, 48);
 	font-size: 24;
 }
 img.i1 {
@@ -22,6 +22,18 @@ img.i1:focus {
 div.d2 {
 	clear: both;
 }
+button {
+	vertical-align: center;
+	color: gold;
+	background-color: navy;
+	border: solid tan 1px;
+	border-color: red;
+}
+
+button:hover {
+	color: lightblue;
+}
+
     </style>
 <script type="text/ffl">
 	set(me.event_handlers.onload, q(
@@ -31,7 +43,7 @@ div.d2 {
 </script>
 </head>
 <body>
+	<button id="save" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</button>
     <div id="d1" />
-    <div id="d2"></div>
 </body>
 </html>
