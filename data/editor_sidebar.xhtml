@@ -6,7 +6,8 @@
     <style>
 body {
 	background-color: rgb(48, 48, 48);
-	font-size: 24;
+	font-family: FreeSans;
+	font-size: 14pt;
 }
 img.i1 {
 	float: left;
@@ -19,19 +20,18 @@ img.i1:hover {
 img.i1:focus {
 	border-color: lightblue;
 }
-div.d2 {
-	clear: both;
-}
-button {
-	vertical-align: center;
-	color: gold;
-	background-color: navy;
-	border: solid tan 1px;
-	border-color: red;
+
+.themeblue {
+	background-color: #7892c2;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 6px 6px 6px 6px;
 }
 
-button:hover {
-	color: lightblue;
+.themeblue:hover {
+	background-color: #476e9e;
 }
 
     </style>
@@ -43,7 +43,10 @@ button:hover {
 </script>
 </head>
 <body>
-	<button id="save" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</button>
+	<div id="menu">
+		<div id="save" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</div>
+		<div id="load" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_load_map()">Load Map</div>
+	</div>
     <div id="d1" />
 </body>
 </html>
