@@ -5,8 +5,9 @@
 <head>
     <style>
 body {
-	background-color: rgb(48, 48, 128);
-	font-size: 24;
+	background-color: rgb(48, 48, 48);
+	font-family: FreeSans;
+	font-size: 14pt;
 }
 img.i1 {
 	float: left;
@@ -19,19 +20,36 @@ img.i1:hover {
 img.i1:focus {
 	border-color: lightblue;
 }
-div.d2 {
-	clear: both;
+
+.themeblue {
+	background-color: #7892c2;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 6px 6px 6px 6px;
 }
+
+.themeblue:hover {
+	background-color: #476e9e;
+}
+
     </style>
 <script type="text/ffl">
-	set(me.event_handlers.onload, q(
+	set(me.event_handlers.onload, q([
 		set(me.document.getElementById('d1').innerHTML, img_str) where img_str = fold(map(get_hex_editor_info(), 
-			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type)), a+b)
-	))
+			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type)), a+b),
+		/*set(me.document.getElementById('d2').innerHTML, ov_str) where ov_str = fold(map(get_hex_overlay_info(),
+			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, ir[0], ir[1], ir[2]-ir[0]+1, ir[3]-ir[1]+1, value.name) where ir = value.alternates[0].rect), a+b)*/
+	]))
 </script>
 </head>
 <body>
+	<div id="menu">
+		<div id="save" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</div>
+		<div id="load" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_load_map()">Load Map</div>
+	</div>
     <div id="d1" />
-    <div id="d2"></div>
+	<div id="d2" />
 </body>
 </html>
