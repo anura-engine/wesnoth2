@@ -38,7 +38,9 @@ img.i1:focus {
 <script type="text/ffl">
 	set(me.event_handlers.onload, q([
 		set(me.document.getElementById('d1').innerHTML, img_str) where img_str = fold(map(get_hex_editor_info(), 
-			sprintf(q[&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" onmousedown="%s('%s')" /&gt; ], value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type, "find(level.chars, value.type='editor_controller').do_set_selection", value.type)), a+b),
+			sprintf(q[&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" onmousedown="%s('%s')" /&gt; ], 
+			value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type, 
+			"find(level.chars, value.type='editor_controller').do_set_selection", value.type)), a+b),
 		/*set(me.document.getElementById('d2').innerHTML, ov_str) where ov_str = fold(map(get_hex_overlay_info(),
 			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, ir[0], ir[1], ir[2]-ir[0]+1, ir[3]-ir[1]+1, value.name) where ir = value.alternates[0].rect), a+b)*/
 	]))
