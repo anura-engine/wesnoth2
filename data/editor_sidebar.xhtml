@@ -10,9 +10,9 @@ body {
 	font-size: 14pt;
 }
 img.i1 {
-	float: left;
 	border: solid tan 2px;
 	padding: 2px;
+	display: inline-block;
 }
 img.i1:hover {
 	border-color: red;
@@ -34,6 +34,10 @@ img.i1:focus {
 	background-color: #476e9e;
 }
 
+#d2 {
+	border: solid blue 1px;
+}
+
     </style>
 <script type="text/ffl">
 	set(me.event_handlers.onload, q([
@@ -41,8 +45,11 @@ img.i1:focus {
 			sprintf(q[&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" onmousedown="%s('%s')" /&gt; ], 
 			value.image_file, value.image_rect[0], value.image_rect[1], value.image_rect[2]-value.image_rect[0]+1, value.image_rect[3]-value.image_rect[1]+1, value.type, 
 			"find(level.chars, value.type='editor_controller').do_set_selection", value.type)), a+b),
-		/*set(me.document.getElementById('d2').innerHTML, ov_str) where ov_str = fold(map(get_hex_overlay_info(),
-			sprintf('&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" /&gt; ', value.image_file, ir[0], ir[1], ir[2]-ir[0]+1, ir[3]-ir[1]+1, value.name) where ir = value.alternates[0].rect), a+b)*/
+		
+		set(me.document.getElementById('d2').innerHTML, alt_str) where alt_str = fold(fold(map(get_hex_overlay_info(), map(value.alternates, 
+			sprintf(q[&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" onmousedown="find(level.chars, value.type='editor_controller').do_set_selection('%s')" /&gt; ], 
+			ov.image_file, ir[0], ir[1], ir[2]-ir[0]+1, ir[3]-ir[1]+1, type, ov.name + ':' + subtype) where type = if(subtype = 'default', ov.name, ov.name + ':' + subtype) 
+				where ir = value[0].rect where subtype = key) where ov = value), a+b), a+b),
 	]))
 </script>
 </head>
@@ -51,7 +58,7 @@ img.i1:focus {
 		<div id="save" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</div>
 		<div id="load" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_load_map()">Load Map</div>
 	</div>
-    <div id="d1" />
-	<div id="d2" />
+    <div id="d1" class="image" />
+	<div id="d2" class="image" />
 </body>
 </html>
