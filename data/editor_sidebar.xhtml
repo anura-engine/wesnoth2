@@ -36,8 +36,8 @@ img.i1:focus {
 	background-color: #476e9e;
 }
 
-#d2 {
-	border: solid blue 1px;
+#scrollable {
+	overflow: auto;
 }
 
     </style>
@@ -60,7 +60,9 @@ img.i1:focus {
 		<div id="save" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_save_map()">Save Map</div>
 		<div id="load" class="themeblue" onmousedown="find(level.chars, value.type='editor_controller').do_load_map()">Load Map</div>
 	</div>
-    <div id="d1" class="image" />
-	<div id="d2" class="image" />
+	<div id="scrollable">
+		<div id="d1" class="image" />
+		<div id="d2" class="image" />
+	</div>
 </body>
 </html>
