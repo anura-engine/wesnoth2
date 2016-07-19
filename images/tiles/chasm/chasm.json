@@ -1,0 +1,355 @@
+{
+		"abyss": {
+			"rect": [207,166,278,237]
+		},
+		"abyss-base-n": {
+			"border": [10,0,9,45],
+			"rect": [0,473,52,499]
+		},
+		"abyss-base-ne": {
+			"border": [34,0,0,20],
+			"rect": [542,428,579,479]
+		},
+		"abyss-base-nw": {
+			"border": [0,0,34,18],
+			"rect": [542,374,579,427]
+		},
+		"abyss-base-s": {
+			"border": [10,47,10,0],
+			"rect": [529,482,580,506]
+		},
+		"abyss-base-se": {
+			"border": [35,20,0,0],
+			"rect": [291,430,327,481]
+		},
+		"abyss-base-sw": {
+			"border": [0,20,33,0],
+			"rect": [175,381,213,432]
+		},
+		"abyss-tile": {
+			"rect": [207,238,278,309]
+		},
+		"abyss2": {
+			"rect": [563,168,634,239]
+		},
+		"abyss3": {
+			"rect": [423,240,494,311]
+		},
+		"abyss4": {
+			"rect": [351,238,422,309]
+		},
+		"abyss5": {
+			"rect": [495,240,566,311]
+		},
+		"abyss6": {
+			"rect": [279,239,350,310]
+		},
+		"abyss7": {
+			"rect": [419,166,490,237]
+		},
+		"depths": {
+			"rect": [279,167,350,238]
+		},
+		"depths-n": {
+			"border": [10,0,9,45],
+			"rect": [106,472,158,498]
+		},
+		"depths-ne": {
+			"border": [34,0,0,20],
+			"rect": [253,381,290,432]
+		},
+		"depths-nw": {
+			"border": [0,0,34,18],
+			"rect": [341,380,378,433]
+		},
+		"depths-s": {
+			"border": [10,47,10,0],
+			"rect": [53,473,104,497]
+		},
+		"depths-se": {
+			"border": [35,20,0,0],
+			"rect": [580,430,616,481]
+		},
+		"depths-sw": {
+			"border": [0,20,33,0],
+			"rect": [214,381,252,432]
+		},
+		"earthy-castle-n": {
+			"border": [4,0,4,14],
+			"rect": [0,373,63,430]
+		},
+		"earthy-castle-ne": {
+			"border": [43,11,12,3],
+			"rect": [337,85,377,166]
+		},
+		"earthy-castle-nw": {
+			"border": [12,10,42,0],
+			"rect": [295,0,336,85]
+		},
+		"earthy-castle2-n": {
+			"border": [4,0,4,10],
+			"rect": [466,312,529,373]
+		},
+		"earthy-castle2-ne": {
+			"border": [42,11,12,0],
+			"rect": [421,0,462,84]
+		},
+		"earthy-castle2-nw": {
+			"border": [12,12,43,0],
+			"rect": [546,0,586,83]
+		},
+		"earthy-concave-bl": {
+			"border": [42,78,31,25],
+			"rect": [51,166,103,242]
+		},
+		"earthy-concave-br": {
+			"border": [31,43,42,22],
+			"rect": [0,87,52,165]
+		},
+		"earthy-concave-l": {
+			"border": [41,50,39,22],
+			"rect": [51,243,96,314]
+		},
+		"earthy-concave-r": {
+			"border": [40,86,39,23],
+			"rect": [0,244,46,314]
+		},
+		"earthy-concave-tl": {
+			"border": [48,102,31,42],
+			"rect": [435,470,481,505]
+		},
+		"earthy-concave-tr": {
+			"border": [31,66,47,41],
+			"rect": [211,470,258,506]
+		},
+		"earthy-convex-bl": {
+			"border": [42,87,14,32],
+			"rect": [379,431,430,469]
+		},
+		"earthy-convex-br": {
+			"border": [32,51,26,32],
+			"rect": [53,431,105,472]
+		},
+		"earthy-convex-l": {
+			"border": [37,44,27,15],
+			"rect": [143,314,188,372]
+		},
+		"earthy-convex-r": {
+			"border": [43,80,36,42],
+			"rect": [294,372,340,429]
+		},
+		"earthy-convex-tl": {
+			"border": [41,89,32,12],
+			"rect": [53,87,105,165]
+		},
+		"earthy-convex-tr": {
+			"border": [32,54,27,3],
+			"rect": [0,0,54,86]
+		},
+		"earthy-tile": {
+			"rect": [567,240,638,311]
+		},
+		"regular-castle-n": {
+			"border": [4,0,4,14],
+			"rect": [64,373,127,430]
+		},
+		"regular-castle-ne": {
+			"border": [43,11,12,3],
+			"rect": [378,85,418,166]
+		},
+		"regular-castle-nw": {
+			"border": [12,10,42,0],
+			"rect": [253,0,294,85]
+		},
+		"regular-castle2-n": {
+			"border": [4,0,4,10],
+			"rect": [402,312,465,373]
+		},
+		"regular-castle2-ne": {
+			"border": [42,11,12,0],
+			"rect": [379,0,420,84]
+		},
+		"regular-castle2-nw": {
+			"border": [12,12,43,0],
+			"rect": [546,84,586,167]
+		},
+		"regular-concave-bl": {
+			"border": [42,78,31,25],
+			"rect": [104,166,156,242]
+		},
+		"regular-concave-br": {
+			"border": [31,43,42,22],
+			"rect": [159,87,211,165]
+		},
+		"regular-concave-l": {
+			"border": [41,50,39,22],
+			"rect": [157,242,202,313]
+		},
+		"regular-concave-r": {
+			"border": [40,86,39,23],
+			"rect": [97,243,143,313]
+		},
+		"regular-concave-tl": {
+			"border": [48,102,31,42],
+			"rect": [482,470,528,505]
+		},
+		"regular-concave-tr": {
+			"border": [31,66,47,41],
+			"rect": [328,434,375,470]
+		},
+		"regular-convex-bl": {
+			"border": [42,87,14,32],
+			"rect": [431,431,482,469]
+		},
+		"regular-convex-br": {
+			"border": [32,51,26,32],
+			"rect": [0,431,52,472]
+		},
+		"regular-convex-l": {
+			"border": [37,44,27,15],
+			"rect": [97,314,142,372]
+		},
+		"regular-convex-r": {
+			"border": [43,80,36,42],
+			"rect": [128,373,174,430]
+		},
+		"regular-convex-tl": {
+			"border": [41,89,32,12],
+			"rect": [106,87,158,165]
+		},
+		"regular-convex-tr": {
+			"border": [32,54,27,3],
+			"rect": [55,0,109,86]
+		},
+		"regular-convex2-tl": {
+			"border": [45,95,36,15],
+			"rect": [249,311,293,380]
+		},
+		"regular-convex2-tr": {
+			"border": [36,57,32,16],
+			"rect": [203,310,248,380]
+		},
+		"regular-snow-castle-n": {
+			"border": [4,0,3,14],
+			"rect": [0,315,64,372]
+		},
+		"regular-snow-castle-ne": {
+			"border": [42,11,12,0],
+			"rect": [337,0,378,84]
+		},
+		"regular-snow-castle-nw": {
+			"border": [12,11,43,0],
+			"rect": [505,0,545,84]
+		},
+		"regular-snow-castle2-n": {
+			"border": [4,0,4,10],
+			"rect": [530,312,593,373]
+		},
+		"regular-snow-castle2-ne": {
+			"border": [42,11,12,0],
+			"rect": [463,0,504,84]
+		},
+		"regular-snow-castle2-nw": {
+			"border": [12,12,43,0],
+			"rect": [587,0,627,83]
+		},
+		"regular-snow-concave-bl": {
+			"border": [39,85,36,25],
+			"rect": [351,310,401,379]
+		},
+		"regular-snow-concave-br": {
+			"border": [36,47,39,19],
+			"rect": [0,166,50,243]
+		},
+		"regular-snow-concave-l": {
+			"border": [42,55,47,28],
+			"rect": [294,311,330,371]
+		},
+		"regular-snow-concave-r": {
+			"border": [47,91,36,29],
+			"rect": [594,312,636,371]
+		},
+		"regular-snow-concave-tl": {
+			"border": [60,105,36,47],
+			"rect": [328,471,357,498]
+		},
+		"regular-snow-concave-tr": {
+			"border": [36,67,59,48],
+			"rect": [259,470,289,498]
+		},
+		"regular-snow-convex-bl": {
+			"border": [46,87,14,32],
+			"rect": [483,431,530,469]
+		},
+		"regular-snow-convex-br": {
+			"border": [32,51,31,39],
+			"rect": [160,471,207,505]
+		},
+		"regular-snow-convex-l": {
+			"border": [38,45,27,15],
+			"rect": [594,372,638,429]
+		},
+		"regular-snow-convex-r": {
+			"border": [43,81,37,42],
+			"rect": [496,374,541,430]
+		},
+		"regular-snow-convex-tl": {
+			"border": [44,95,32,9],
+			"rect": [157,166,206,241]
+		},
+		"regular-snow-convex-tr": {
+			"border": [32,57,32,6],
+			"rect": [472,85,521,165]
+		},
+		"regular-tile": {
+			"rect": [491,168,562,239]
+		},
+		"water-concave-bl": {
+			"border": [42,80,31,19],
+			"rect": [419,85,471,165]
+		},
+		"water-concave-br": {
+			"border": [31,44,42,17],
+			"rect": [587,84,639,166]
+		},
+		"water-concave-l": {
+			"border": [40,50,40,7],
+			"rect": [163,0,208,86]
+		},
+		"water-concave-r": {
+			"border": [43,86,39,7],
+			"rect": [209,0,252,86]
+		},
+		"water-concave-tl": {
+			"border": [36,102,31,42],
+			"rect": [376,470,434,505]
+		},
+		"water-concave-tr": {
+			"border": [31,66,35,41],
+			"rect": [211,433,270,469]
+		},
+		"water-convex-bl": {
+			"border": [43,87,14,33],
+			"rect": [160,433,210,470]
+		},
+		"water-convex-br": {
+			"border": [32,51,25,33],
+			"rect": [106,431,159,471]
+		},
+		"water-convex-l": {
+			"border": [36,45,27,16],
+			"rect": [449,374,495,430]
+		},
+		"water-convex-r": {
+			"border": [43,81,36,42],
+			"rect": [402,374,448,430]
+		},
+		"water-convex-tl": {
+			"border": [43,92,32,8],
+			"rect": [253,86,303,165]
+		},
+		"water-convex-tr": {
+			"border": [32,54,29,3],
+			"rect": [110,0,162,86]
+		}
+	}
