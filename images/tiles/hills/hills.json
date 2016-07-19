@@ -1,0 +1,213 @@
+{
+		"dry-to-water-n": {
+			"border": [17,0,16,62],
+			"rect": [472,339,510,348]
+		},
+		"dry-to-water-n-ne": {
+			"border": [16,0,0,33],
+			"rect": [79,185,134,223]
+		},
+		"dry-to-water-ne": {
+			"border": [50,0,0,33],
+			"rect": [22,224,43,262]
+		},
+		"dry-to-water-ne-se": {
+			"border": [52,0,0,0],
+			"rect": [465,72,484,143]
+		},
+		"dry-to-water-nw": {
+			"border": [0,0,52,33],
+			"rect": [188,224,207,262]
+		},
+		"dry-to-water-nw-n": {
+			"border": [0,0,17,32],
+			"rect": [366,144,420,183]
+		},
+		"dry-to-water-s": {
+			"border": [16,62,16,0],
+			"rect": [432,339,471,348]
+		},
+		"dry-to-water-s-sw": {
+			"border": [0,36,15,0],
+			"rect": [0,263,56,298]
+		},
+		"dry-to-water-se": {
+			"border": [52,33,0,0],
+			"rect": [108,224,127,262]
+		},
+		"dry-to-water-se-s": {
+			"border": [15,36,0,0],
+			"rect": [429,271,485,306]
+		},
+		"dry-to-water-sw": {
+			"border": [0,33,52,0],
+			"rect": [148,224,167,262]
+		},
+		"dry-to-water-sw-nw": {
+			"border": [0,0,52,0],
+			"rect": [425,72,444,143]
+		},
+		"dry-to-water2-s": {
+			"border": [17,61,16,0],
+			"rect": [80,335,118,345]
+		},
+		"dry-to-water2-s-sw": {
+			"border": [0,36,16,0],
+			"rect": [0,299,55,334]
+		},
+		"dry-to-water2-se-s": {
+			"border": [17,36,0,0],
+			"rect": [112,299,166,334]
+		},
+		
+		"regular-to-water-n": {
+			"border": [17,0,16,62],
+			"rect": [357,341,395,350]
+		},
+		"regular-to-water-n-ne": {
+			"border": [16,0,0,33],
+			"rect": [135,185,190,223]
+		},
+		"regular-to-water-ne": {
+			"border": [50,0,0,33],
+			"rect": [66,224,87,262]
+		},
+		"regular-to-water-ne-se": {
+			"border": [52,0,0,0],
+			"rect": [405,72,424,143]
+		},
+		"regular-to-water-nw": {
+			"border": [0,0,52,33],
+			"rect": [128,224,147,262]
+		},
+		"regular-to-water-nw-n": {
+			"border": [0,0,17,32],
+			"rect": [311,144,365,183]
+		},
+		"regular-to-water-s": {
+			"border": [16,62,16,0],
+			"rect": [199,335,238,344]
+		},
+		"regular-to-water-s-sw": {
+			"border": [0,36,16,0],
+			"rect": [56,299,111,334]
+		},
+		"regular-to-water-se": {
+			"border": [52,33,0,0],
+			"rect": [88,224,107,262]
+		},
+		"regular-to-water-se-s": {
+			"border": [17,36,0,0],
+			"rect": [167,299,221,334]
+		},
+		"regular-to-water-sw": {
+			"border": [0,33,52,0],
+			"rect": [168,224,187,262]
+		},
+		"regular-to-water-sw-nw": {
+			"border": [0,0,52,0],
+			"rect": [445,72,464,143]
+		},
+		"regular-to-water2-s": {
+			"border": [17,61,16,0],
+			"rect": [119,335,157,345]
+		},
+		"regular-to-water2-s-sw": {
+			"border": [0,36,15,0],
+			"rect": [57,263,113,298]
+		},
+		"regular-to-water2-se-s": {
+			"border": [15,36,0,0],
+			"rect": [114,263,170,298]
+		},
+		
+		"snow-to-hills-n": {
+			"border": [15,0,16,62],
+			"rect": [158,335,198,344]
+		},
+		"snow-to-hills-n-ne": {
+			"border": [15,0,0,33],
+			"rect": [22,185,78,223]
+		},
+		"snow-to-hills-ne": {
+			"border": [50,0,0,32],
+			"rect": [451,184,472,223]
+		},
+		"snow-to-hills-ne-se": {
+			"border": [49,0,0,0],
+			"rect": [360,72,382,143]
+		},
+		"snow-to-hills-nw": {
+			"border": [0,0,50,35],
+			"rect": [0,225,21,261]
+		},
+		"snow-to-hills-nw-n": {
+			"border": [0,0,16,35],
+			"rect": [208,262,263,298]
+		},
+		"snow-to-hills-s": {
+			"border": [17,64,16,0],
+			"rect": [317,345,355,352]
+		},
+		"snow-to-hills-s-sw": {
+			"border": [0,33,16,0],
+			"rect": [191,185,246,223]
+		},
+		"snow-to-hills-se": {
+			"border": [50,32,0,0],
+			"rect": [0,185,21,224]
+		},
+		"snow-to-hills-se-s": {
+			"border": [17,32,0,0],
+			"rect": [421,144,475,183]
+		},
+		"snow-to-hills-sw": {
+			"border": [0,33,50,0],
+			"rect": [44,224,65,262]
+		},
+		"snow-to-hills-sw-nw": {
+			"border": [0,0,50,0],
+			"rect": [383,72,404,143]
+		},
+		"snow-to-water-n": {
+			"border": [20,0,18,65],
+			"rect": [122,346,155,352]
+		},
+		"snow-to-water-n-ne": {
+			"border": [20,0,1,37],
+			"rect": [277,299,327,333]
+		},
+		"snow-to-water-ne": {
+			"border": [53,1,1,37],
+			"rect": [486,305,503,338]
+		},
+		"snow-to-water-nw": {
+			"border": [0,0,46,36],
+			"rect": [486,233,511,268]
+		},
+		"snow-to-water-nw-n": {
+			"border": [1,0,20,37],
+			"rect": [328,299,378,333]
+		},
+		"snow-to-water-s": {
+			"border": [17,64,17,0],
+			"rect": [84,346,121,353]
+		},
+		"snow-to-water-s-sw": {
+			"border": [2,38,17,0],
+			"rect": [379,307,431,340]
+		},
+		"snow-to-water-se": {
+			"border": [53,36,0,0],
+			"rect": [486,269,504,304]
+		},
+		"snow-to-water-se-s": {
+			"border": [17,36,0,0],
+			"rect": [222,299,276,334]
+		},
+		"snow-to-water-sw": {
+			"border": [2,38,49,2],
+			"rect": [432,307,452,338]
+		},
+
+	}
