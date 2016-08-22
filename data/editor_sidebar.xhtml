@@ -41,7 +41,7 @@ img.i1:focus {
 }
 
     </style>
-<script type="text/ffl">
+<!-- <script type="text/ffl">
 	set(me.event_handlers.onload, q([
 		set(me.document.getElementById('d1').innerHTML, img_str) where img_str = fold(map(get_hex_editor_info(), 
 			sprintf(q[&lt;img class="i1" src="%s" x="%d" y="%d" width="%d" height="%d" id="%s" onmousedown="%s('%s')" /&gt; ], 
@@ -53,7 +53,7 @@ img.i1:focus {
 			ov.image_file, ir[0], ir[1], ir[2]-ir[0]+1, ir[3]-ir[1]+1, type, ov.name + ':' + subtype) where type = if(subtype = 'default', ov.name, ov.name + ':' + subtype) 
 				where ir = value[0].rect where subtype = key) where ov = value), a+b), a+b),
 	]))
-</script>
+</script> -->
 </head>
 <body>
 	<div id="menu">
